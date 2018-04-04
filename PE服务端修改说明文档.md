@@ -1,5 +1,8 @@
 # PE服务端修改说明文档
 
+## 本文链接
+https://github.com/yz19930826/Document/blob/master/PE%E6%9C%8D%E5%8A%A1%E7%AB%AF%E4%BF%AE%E6%94%B9%E8%AF%B4%E6%98%8E%E6%96%87%E6%A1%A3.md
+
 ## 网银客户端登录介绍
 当前网银客户端采用的表现和逻辑相分离的技术。
 

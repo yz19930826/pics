@@ -4,7 +4,8 @@
 
 ## 工具说明
 * Fiddler或者Chrome浏览器控制台
-
+## 本文链接
+https://github.com/yz19930826/Document/blob/master/%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%9C%AC%E5%9C%B0html%E9%9D%99%E6%80%81%E9%A1%B5%E9%9D%A2%E7%99%BB%E5%BD%95%E7%BD%91%E9%93%B6%E7%B3%BB%E7%BB%9F.md
 ## 基础知识
 * JS基础
 * Http基础
