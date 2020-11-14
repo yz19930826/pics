@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-14T13:15:41.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="1ILTWot9GU64xdViLkUq" version="13.9.7" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-14T13:24:52.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="2LHhBGr9hJUM_jGFY31R" version="13.9.7" type="github">
   <diagram id="5d5-R5mv5tFiZFsrZ3Lr" name="Page-1">
-    <mxGraphModel dx="2062" dy="1123" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1067" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,8 +53,8 @@
         <mxCell id="gn6pM7Pouy_-NKCmJdsz-20" value="Mysql Uniq Key" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="398" y="338.75" width="96" height="27.5" as="geometry" />
         </mxCell>
-        <mxCell id="gn6pM7Pouy_-NKCmJdsz-31" value="" style="group;fontStyle=1" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="210" y="240" width="20" height="225" as="geometry" />
+        <mxCell id="gn6pM7Pouy_-NKCmJdsz-31" value="" style="group;fontStyle=1;whiteSpace=wrap;shadow=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="230" width="20" height="225" as="geometry" />
         </mxCell>
         <mxCell id="gn6pM7Pouy_-NKCmJdsz-28" value="" style="endArrow=classic;html=1;" edge="1" parent="gn6pM7Pouy_-NKCmJdsz-31">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -62,7 +62,7 @@
             <mxPoint x="20" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gn6pM7Pouy_-NKCmJdsz-29" value="请求链上接口皆为幂等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gn6pM7Pouy_-NKCmJdsz-31">
+        <mxCell id="gn6pM7Pouy_-NKCmJdsz-29" value="幂等" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="gn6pM7Pouy_-NKCmJdsz-31">
           <mxGeometry width="20" height="225" as="geometry" />
         </mxCell>
         <mxCell id="gn6pM7Pouy_-NKCmJdsz-35" value="END" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
