@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2020-11-21T10:44:14.209Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="13.10.0" etag="22K-93gKOuQQxTNQXjgT" type="github"><diagram id="7A8dNqhqVw8uWevrxrxx">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-21T12:41:27.378Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="WpPHu6ulU40-1CPXDFRW" version="13.10.0" type="github">
+  <diagram id="7A8dNqhqVw8uWevrxrxx" name="Page-1">
+    <mxGraphModel dx="1608" dy="1113" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p3_aiiybMioKkxTT_VDU-2" value="BeanFactoryPostProcessor" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="190" width="190" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="p3_aiiybMioKkxTT_VDU-3" target="p3_aiiybMioKkxTT_VDU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-6" value="implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3_aiiybMioKkxTT_VDU-5">
+          <mxGeometry x="-0.1712" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="p3_aiiybMioKkxTT_VDU-3" target="p3_aiiybMioKkxTT_VDU-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-15" value="①读取" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3_aiiybMioKkxTT_VDU-14">
+          <mxGeometry x="0.554" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="p3_aiiybMioKkxTT_VDU-3" target="p3_aiiybMioKkxTT_VDU-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="500" />
+              <mxPoint x="130" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-20" value="替换${}中的值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3_aiiybMioKkxTT_VDU-19">
+          <mxGeometry x="0.7481" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-3" value="PropertySourcesPlaceHolderConfigurer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="10" y="300" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="p3_aiiybMioKkxTT_VDU-4" target="p3_aiiybMioKkxTT_VDU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="270" />
+              <mxPoint x="255" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-8" value="implements" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="p3_aiiybMioKkxTT_VDU-7">
+          <mxGeometry x="-0.1382" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-4" value="PropertyOverrideConfigurer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-13" value="properties" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="380" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-16" value="&lt;span style=&quot;color: rgb(0 , 136 , 0) ; font-family: &amp;#34;monaco&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14.5px ; background-color: rgb(255 , 255 , 255)&quot;&gt;${jdbc.password}&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="520" width="330" height="185" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-17" value="BeanDefination" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="520" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-18" value="hdbc.password=root" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-125" y="450" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-22" value="BeanDefination" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="300" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="p3_aiiybMioKkxTT_VDU-25" value="locations=classpath:xxx.properties" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="320" width="260" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
