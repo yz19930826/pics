@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-12-17T03:39:11.949Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="13.10.6" etag="WzPIR4tBbJrSSyX4ybHC" type="github"><diagram id="6rBsryBODNa-IhrvOJOk">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-17T06:39:58.586Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Ol17ecEJlZb_CxtK9r3b" version="13.10.6" type="github">
+  <diagram id="6rBsryBODNa-IhrvOJOk" name="Page-1">
+    <mxGraphModel dx="622" dy="447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-3" value="创建申请单" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;rounded=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="430" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-4" value="业务" style="swimlane;html=1;startSize=20;" vertex="1" parent="MuIZ8a7xRxxnPKqN6l0I-3">
+          <mxGeometry y="20" width="130" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-11" value="借出申请" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="MuIZ8a7xRxxnPKqN6l0I-4">
+          <mxGeometry x="10" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-5" value="OMS" style="swimlane;html=1;startSize=20;" vertex="1" parent="MuIZ8a7xRxxnPKqN6l0I-3">
+          <mxGeometry x="130" y="20" width="180" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-14" value="判断是否重复生成" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="MuIZ8a7xRxxnPKqN6l0I-5">
+          <mxGeometry x="40" y="40" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-16" value="初始化借出申请单" style="rounded=1;whiteSpace=wrap;html=1;sketch=0;" vertex="1" parent="MuIZ8a7xRxxnPKqN6l0I-5">
+          <mxGeometry x="40" y="110" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-17" value="无" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="MuIZ8a7xRxxnPKqN6l0I-5" source="MuIZ8a7xRxxnPKqN6l0I-14" target="MuIZ8a7xRxxnPKqN6l0I-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-6" value="钢铁侠" style="swimlane;html=1;startSize=20;" vertex="1" parent="MuIZ8a7xRxxnPKqN6l0I-3">
+          <mxGeometry x="310" y="20" width="120" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="MuIZ8a7xRxxnPKqN6l0I-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="MuIZ8a7xRxxnPKqN6l0I-3" source="MuIZ8a7xRxxnPKqN6l0I-11" target="MuIZ8a7xRxxnPKqN6l0I-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
