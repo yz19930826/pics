@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2020-12-26T04:56:01.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" version="14.1.1" etag="LAd6Rd7WgTCqaGOj8yRG" type="github"><diagram id="ruwvE0pnMSJhlAHyLWV0">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-26T14:30:37.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="J6NtuIC-gEElhUXaHUCr" version="14.1.1" type="github">
+  <diagram id="ruwvE0pnMSJhlAHyLWV0" name="Page-1">
+    <mxGraphModel dx="784" dy="1106" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="64" y="160" width="346" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-2" value="ClusterNode" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="160" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="145" y="280" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-4" value="ClusterState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-6" value="myself 当前节点指针" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="310" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-7" value="state 上线或下线" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-8" value="nodes* 所有节点的指针" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="348.5" width="130" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-10" value="char slots[16384/8]&lt;br&gt;记录当前节点负责的槽" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="145" y="210" width="185" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cMxbjXqV7aLTL8Sh3bgC-11" value="ClusterNode *slots[16384]&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="367.5" width="130" height="32.5" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
